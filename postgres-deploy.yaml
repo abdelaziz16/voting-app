@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: postgres-pod
-        image: postgress:15
+        image: postgres:15
         ports:
         - containerPort: 5432
