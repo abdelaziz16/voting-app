@@ -17,7 +17,7 @@ spec:
         micro: postgres
     spec:
       containers:
-      - name:
+      - name: postgres-pod
         image: postgress:15
         ports:
         - containerPort: 5432
